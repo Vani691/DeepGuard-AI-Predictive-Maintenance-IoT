@@ -11,12 +11,15 @@ Built using the **NASA CMAPSS (Turbofan Engine Degradation)** dataset, this syst
 
 ---
 
-## 📸 Command Center Dashboard
+## 📸 V2.0 Telemetry & Analytics Command Center
 
-*(Real-time probability tracking and automated dispatch status)*
-![Dashboard Overview](images/dashboard_top.png)
+*(Real-time predictive probability, anomaly detection, and automated dispatch status)*
+![Dashboard Overview](images/v2_dashboard_alert.png)
 
-*(Live multidimensional sensor degradation tracking)*
+*(Live Data Science Analytics: Dynamic Feature Importance Extraction and Sensor Correlation)*
+![Model Insights](images/v2_model_insights.png)
+
+*(Live multidimensional sensor degradation tracking - Run-to-Failure)*
 ![Telemetry Charts](images/dashboard_charts.png)
 
 ---
