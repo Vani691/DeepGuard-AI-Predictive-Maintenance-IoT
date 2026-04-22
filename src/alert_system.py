@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-# You will replace this with your actual Discord Webhook URL later
+
 WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK_URL_HERE"
 
 def send_discord_alert(engine_id, cycle, risk_type, probability):
@@ -11,7 +11,7 @@ def send_discord_alert(engine_id, cycle, risk_type, probability):
         print("Webhook URL not set. Skipping live alert.")
         return 
 
-    # Use Red for predictive failure, Orange for unknown anomalies
+    
     color = 16711680 if "FAILURE" in risk_type else 16753920 
 
     payload = {
