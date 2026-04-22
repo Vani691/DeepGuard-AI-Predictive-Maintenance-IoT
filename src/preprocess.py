@@ -12,8 +12,6 @@ def load_and_clean_nasa_data(filepath):
     # Load data
     df = pd.read_csv(filepath, sep='\s+', header=None, names=col_names)
     
-    # In a real messy industrial dataset, we would handle missing values (NaNs) right here
-    # e.g., df.fillna(method='ffill', inplace=True)
     
     print(f"🧹 Preprocessing complete: Loaded {len(df)} rows.")
     return df
